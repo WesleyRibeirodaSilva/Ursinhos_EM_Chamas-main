@@ -1,16 +1,20 @@
 @charset "UTH-8";
 
+
+/* -----------------------------------------------------------------------> */
+/* configurações gerais da pagina */
 body {
   background-color: rgb(52, 50, 50);
 }
-/* -----------------------------------------------------------------------> */
-/* configurações gerais da pagina */
 img {
   border-radius: 10px;
 }
+h6{
+  display: none;
+}
 /* fim configurações gerais da pagina */
 /* -----------------------------------------------------------------------> */
-
+/* <_________________________________________________Wesley___________________________________> */
 /* Nav */
 .dropdown-menu :hover {
   background-color: rgb(129, 134, 129);
@@ -21,14 +25,6 @@ height: 200px;
   background-image: url('../img/banner/nav5.jpg');
   background-size: cover;
 }
-
-@media (max-width: 990px) {
-  #navbarNav {
-      background-color: #212529e1;
-      border-radius: 20px;
-  }
-}
-
 /* Home */
 #carousel-home {
   max-width: 1024px;
@@ -82,18 +78,6 @@ height: 200px;
   padding-top: 20px;
   text-align: center;
 }
-@media (max-width: 1200px) {
-  .cor-gradiente {
-      margin-top: 0px;
-  } 
-  .cor-e-espacamento {
-      border-radius: 0px;
-  }
-  .cor-branca {
-    padding-bottom: 0px;
-    padding-top: 0px;
-  }
-} 
 
 
 /* Series e TV */
@@ -110,7 +94,8 @@ height: 200px;
   background-image: linear-gradient(to right, rgb(56, 56, 56), rgb(152, 152, 152));
   box-shadow: 3px 3px 6px 3px rgb(41, 41, 41);
 }
-
+/* <_________________________________________________Wesley___________________________________> */
+/* <_________________________________________________Erick____________________________________> */
 /* Caracteristicas do Footer*/
 footer {
   clear: both;
@@ -146,9 +131,6 @@ footer h3 {
 #color {
   background-color: #313030;
 }
-.color_one {
-  background-color: #666060;
-}
 small {
   /* Cop& right */
   color: white;
@@ -181,35 +163,29 @@ small {
 }
 /* Fim da pagina do corpo do footer */
 /* -----------------------------------------------------------------------> */
-/* comeco da pagina home */
-.link_home{
-    text-align:  center;
-    margin: 15px 0px;
-}
 
-/* fim da pagina home */
 /* -----------------------------------------------------------------------> */
 /* começo da página geek */
 
+/* menu da pagina */
 .menu_geek_hqs {
-  /* menu da pagina */
   background-color: #d9d9d9;
   align-items: center;
-  margin: 10px 0px;
+  margin: 10px;
 }
+
 .menu_geek_hqs ul li {
   list-style: none;
-  display: inline;
-  height: 80px;
+  display: inline-block;
+  height: 50px;
+  padding: 5px 6%;
 }
 .menu_geek_hqs li a {
-  /* fim da menu da pagina */
   text-decoration: none;
   color: black;
-  display: inline-block;
-  padding: 10px 5%;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
+/* fim da menu da pagina */
 /*  paginas geek cinema hqs */
 .img_titulo img {
   border-radius: 10px;
@@ -224,7 +200,6 @@ small {
   margin-left: 10px;
   color: white;
 }
-
 .autor_data {
   display: flex;
   margin-left: 215px;
@@ -235,9 +210,7 @@ small {
   padding: 0px 3px;
   color: white;
 }
-.color_nome_titulo {
-  color: yellow;
-}
+
 /* fim da pagina geek HQS */
 /* -----------------------------------------------------------------------> */
 /* pagina galeria */
@@ -330,15 +303,19 @@ small {
     font-size: 20px;
   }
   /* -----------------------------------------------------------------------> */
-/* comeco da pagina home */
-.link_home{
-    text-align: end;
-    margin: 15px -30px;
-}
-
-/* fim da pagina home */
 /* -----------------------------------------------------------------------> */
-  /* -----------------------------------------------------------------------> */
+ /*  começo da pagina geek */
+ .menu_geek_hqs nav{
+  margin-top: 10px;
+ }
+ .menu_geek_hqs ul li{
+  padding: 10px 3%;
+ }
+ .menu_geek_hqs nav ul li a{
+  padding: 15px 30px;
+ }
+
+/* -----------------------------------------------------------------------> */
   /* Paginas de visualização de noticias */
   .coroseul_img_mobile {
     display: none;
@@ -470,6 +447,12 @@ small {
   }
   /*  Temino do footer icones */
   /* -----------------------------------------------------------------------> */
+  /* começo da Paginas geek*/
+  .menu_geek_hqs{
+    display: none;
+  }
+  
+
   /* caroseul de imagens desktop */
   .coroseul_img_tablet {
     display: none;
@@ -483,23 +466,12 @@ small {
 
   /* fim caroseul de imagens desktop */
   /* -----------------------------------------------------------------------> */
-  /*  pagina geeks e hqs */
-  /* menu geeks hqs */
-  .menu_geek_hqs {
-    display: none;
-  } /* fim menu geeks hqs */
-
-  .noticia {
-    margin-left: 30px;
-  }
-  /* fim pagina geeks e hqs */
-  /* -----------------------------------------------------------------------> */
   /* comeco da pagina normas de uso */
   .text_pg_normas p {
     font-size: 0.9rem;
     margin: 20px 110px;
   }
-  /* fim comeco da pagina normas de uso */
+  /* fim DA pagina normas de uso */
   /* -----------------------------------------------------------------------> */
   /* comeco da pagina quem somos */
   .quem-somos {
@@ -515,3 +487,24 @@ small {
   /* fim da pagina quem somos */
   /* -----------------------------------------------------------------------> */
 }
+/* <_________________________________________________Erick____________________________________> */
+/* <_________________________________________________wesley___________________________________> */
+@media (max-width: 990px) {
+  #navbarNav {
+      background-color: #212529e1;
+      border-radius: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .cor-gradiente {
+      margin-top: 0px;
+  } 
+  .cor-e-espacamento {
+      border-radius: 0px;
+  }
+  .cor-branca {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+} 
+/* <_________________________________________________wesley___________________________________> */
