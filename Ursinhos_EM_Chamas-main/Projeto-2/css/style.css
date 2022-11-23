@@ -15,7 +15,7 @@ body {
 
 .banner-image{
 	height: 200px;
-    background-image: url('../header/img/nav5.jpg');
+    background-image: url('../img/banner/nav5.jpg');
     background-size: cover;
 }
 
