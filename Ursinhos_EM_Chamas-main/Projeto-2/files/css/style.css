@@ -139,8 +139,8 @@ small {
 }
 .social_icons {
   list-style: none;
-  margin-top: 30px;
-  margin-left: 40%;
+  /* margin-top: 30px;
+  margin-left: 40%; */
 }
 .social_icons li {
   padding: 10px;
