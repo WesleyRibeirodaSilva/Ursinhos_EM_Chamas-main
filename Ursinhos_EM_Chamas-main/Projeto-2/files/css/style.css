@@ -94,6 +94,7 @@ height: 200px;
   background-image: linear-gradient(to right, rgb(56, 56, 56), rgb(152, 152, 152));
   box-shadow: 3px 3px 6px 3px rgb(41, 41, 41);
 }
+
 /* <_________________________________________________Wesley___________________________________> */
 /* <_________________________________________________Erick____________________________________> */
 /* Caracteristicas do Footer*/
@@ -139,8 +140,6 @@ small {
 }
 .social_icons {
   list-style: none;
-  /* margin-top: 30px;
-  margin-left: 40%; */
 }
 .social_icons li {
   padding: 10px;
