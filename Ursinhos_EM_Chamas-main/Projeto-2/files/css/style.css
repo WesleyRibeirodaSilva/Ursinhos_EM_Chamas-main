@@ -66,6 +66,17 @@ height: 200px;
   margin: 10px;
   color: #fff;
 }
+/* -------------------------------------Correção---------------------------------------------------------- */
+.noticia_img{
+  width: 100%;
+  height: 100%;
+  max-width: 100%;    
+  object-fit: cover;
+  object-position: bottom left;
+  margin: 10px;
+}
+/* -------------------------------------Correção---------------------------------------------------------- */
+
 .centarlizar-p {
   margin: auto;
 }
@@ -476,20 +487,7 @@ small {
   .menu_geek_hqs{
     display: none;
   }
-  
 
-  /* caroseul de imagens desktop */
-  .coroseul_img_tablet {
-    display: none;
-  }
-  .coroseul_img_desk {
-    display: block;
-  }
-  .coroseul_img_desk img {
-    margin: 10% 15px;
-  }
-
-  /* fim caroseul de imagens desktop */
   /* -----------------------------------------------------------------------> */
   /* comeco da pagina normas de uso */
   .text_pg_normas p {
