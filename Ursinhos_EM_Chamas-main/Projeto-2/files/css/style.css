@@ -507,3 +507,13 @@ small {
   }
 } 
 /* <_________________________________________________wesley___________________________________> */
+
+
+.teste p {
+  border-radius: 100px;
+  background-color: white;
+}
+form{
+  border-style: solid;
+  
+}
