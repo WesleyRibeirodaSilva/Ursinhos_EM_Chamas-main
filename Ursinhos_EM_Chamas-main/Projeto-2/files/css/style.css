@@ -19,9 +19,22 @@ h6{
 .dropdown-menu :hover {
   background-color: rgb(129, 134, 129);
 }
+.nav-bi {
+  font-size: 2em;
+  transition: .4s;
+  color: #b5b5b5;
+}
+.nav-bi:hover {
+  font-size: 2em;
+  color: #ffffff;
+  transition: .4s;
+}
+nav {
+  font-size: 1.1em;
+}
 
 .banner-image{
-height: 200px;
+  height: 200px;
   background-image: url('../img/banner/nav5.jpg');
   background-size: cover;
 }
