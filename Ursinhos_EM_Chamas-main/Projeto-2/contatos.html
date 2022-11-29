@@ -13,14 +13,99 @@
 </head>
 
 <body>
+     <!-- Nav -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <div class="container">
+      <img src="header/logo/Rectangle-177.png" alt="Logo" width="70" height="70" class="d-inline-block align-text-top">
+      <a href="index.html" class="navbar-brand ps-md-5">Home</a>
+      <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggler Navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav p-5 p-md-5 p-lg-1 p-md-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Geek
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="geeks_cinema.html"> - Cinema</a></li>
+              <li><a class="dropdown-item" href="geeks_hqs.html"> - HQs</a></li>
+              <li><a class="dropdown-item" href="geeks_cosplay.html"> - Cosplay</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Séries e TV
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="serie_1.html"> - Série 1</a></li>
+              <li><a class="dropdown-item" href="serie_2.html"> - Série 2</a></li>
+              <li><a class="dropdown-item" href="serie_3.html"> - Série 3</a></li>
+              <li><a class="dropdown-item" href="tv_1.html"> - TV 1</a></li>
+              <li><a class="dropdown-item" href="tv_2.html"> - TV 2</a></li>
+              <li><a class="dropdown-item" href="tv_3.html"> - TV 3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Filme
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="filmes_1.html"> - Filme 1</a></li>
+              <li><a class="dropdown-item" href="filmes_2.html"> - Filme 2</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Noticia
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="noticias_1.html"> - Noticia 1</a></li>
+              <li><a class="dropdown-item" href="noticias_2.html"> - Noticia 2</a></li>
+              <li><a class="dropdown-item" href="noticias_3.html"> - Noticia 3</a></li>
+              <li><a class="dropdown-item" href="noticias_4.html"> - Noticia 4</a></li>
+              <li><a class="dropdown-item" href="noticias_5.html"> - Noticia 5</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="normas_de_uso.html" class="nav-link text-white">Normas de Uso</a>
+          </li>
+          <li class="nav-item">
+            <a href="normas_de_uso.html" class="nav-link text-white">Contato</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Quem Somos
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="quem_somos_1.html"> - Erick</a></li>
+              <li><a class="dropdown-item" href="quem_somos_2.html"> - Italo</a></li>
+              <li><a class="dropdown-item" href="quem_somos_3.html"> - Jenyfer</a></li>
+              <li><a class="dropdown-item" href="quem_somos_4.html"> - Wesley</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Banner image -->
+  <div class="banner-image w-100 vh-25 d-flex justify-content-center align-items-center">
+  </div>
     <article class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 ">
-                <form action="">
+                <form >
                     <fieldset>
 
                         <div class="nome text-white">
-                            <label for="">Nome:</label>
+                            <label>Nome:</label>
                             <div class="row">
                                 <div class="col-3">
                                     <input type="text" name="Nome" id="Nome" placeholder="nome">
@@ -29,41 +114,46 @@
                             </div>
                         </div>
 
-                        <label class="text-white" for="">Data:</label>
+                        <label class="text-white" >Data:</label>
                         <div class="data ">
 
                             <input type="date" name="data" id="data">
                         </div>
-                        <label class="text-white" for="">Telefone: </label>
+                        <label class="text-white">Telefone: </label>
                         <div class="telefone text-white">
 
                             <input type="tel" name="telefone" id="telefone" class="input-padrao" required
                                 placeholder="(xx) xxxxx-xxxx">
                         </div>
-                        <label class="text-white" for="">E-mail:</label>
+                        <label class="text-white">E-mail:</label>
                         <div class="email text-white">
 
                             <input type="email" name="email" id="email">
                         </div>
                     </fieldset>
+                     <div class="bottom">
+                        <button type="button" class="btn btn-dark">Enviar</button>
+                     </div>
                 </form>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
 
 
                 <section class="col teste">
+                    <h6>kakak</h6>
 
-                    <p><i class=" bi bi-facebook"></i></p>
+                    <p><i class=" bi bi-facebook p-1"></i></p>
                     <hr>
-                    <p><i class=" bi bi-instagram"></i></p>
+                    <p><i class=" bi bi-instagram p-1"></i></p>
                     <hr>
-                    <p><i class=" bi bi-twitter"></i></p>
+                    <p><i class=" bi bi-twitter p-1"></i></p>
                     <hr>
-                    <p><i class=" bi bi-envelope"></i></p>
+                    <p><i class=" bi bi-envelope p-1"></i></p>
                     <hr>
-                    <p><i class=" bi bi-geo-alt"></i></p>
+                    <p><i class=" bi bi-geo-alt p-1"></i></p>
                 </section>
             </div>
+        </div>
     </article>
     <aside>
 
@@ -77,7 +167,39 @@
     </aside>
 
 
-
+    <footer>
+        <div id="color" class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+    
+            <section>
+              <h3 class="color_fonte">Mapa do site</h3>
+              <nav>
+                <ul>
+                  <li><a href="#">GEEKS</a></li>
+                  <li><a href="#">SERIES E TV</a></li>
+                  <li><a href="#">FILMES</a></li>
+                  <li><a href="#">NOTICIAS</a></li>
+                  <li><a href="#">NORMAS DE USO</a></li>
+                  <li><a href="#">CONTATO</a></li>
+                  <li><a href="#">QUEM SOMOS</a></li>
+                </ul>
+              </nav>
+            </section>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img id="logo_footer" src="files/img/teste.png" alt="">
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <ul class="social_icons">
+              <li><a href="#"><i class="bi bi-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="bi bi-instagram" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="bi bi-twitter" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+          <small>© Copyright - Todos os direitos reservados a Fatec São Roque</small>
+        </div>
+      </footer>
+    
 
 
 

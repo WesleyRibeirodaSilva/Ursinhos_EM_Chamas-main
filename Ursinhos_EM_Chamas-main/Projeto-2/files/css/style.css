@@ -542,5 +542,8 @@ small {
 }
 form{
   border-style: solid;
-  
+  padding-left: 60px;
+}
+.buttom0{
+  padding-top: 100px;
 }
