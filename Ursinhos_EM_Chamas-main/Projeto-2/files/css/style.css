@@ -32,6 +32,13 @@ h6{
 nav {
   font-size: 1.1em;
 }
+.nav-link {
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #b5b5b5;
+  transition: .3s;
+}
 
 .banner-image{
   height: 200px;
