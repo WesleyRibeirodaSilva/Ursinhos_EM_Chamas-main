@@ -1,8 +1,8 @@
 @charset "UTH-8";
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Kreon:wght@400;500&family=Paytone+One&display=swap');
 
-/* -----------------------------------------------------------------------> */
-/* configurações gerais da pagina */
+
+/* ____________________________Configurações Gerais da Pagina________________________ */
 body {
   background-color: rgb(52, 50, 50);
 }
@@ -26,10 +26,7 @@ nav {
 h6{
   display: none;
 }
-/* fim configurações gerais da pagina */
-/* -----------------------------------------------------------------------> */
-/* <_________________________________________________Wesley___________________________________> */
-/* Nav */
+/* _____________________________________Nav Wesley________________________________ */
 .dropdown-menu :hover {
   background-color: rgb(129, 134, 129);
 }
@@ -56,7 +53,7 @@ h6{
   background-image: url('../img/banner/nav5.jpg');
   background-size: cover;
 }
-/* Home */
+/*_________________________________ Home Wesley________________________________ */
 #carousel-home {
   max-width: 1024px;
   max-height: 522px;
@@ -67,7 +64,6 @@ h6{
   padding-left: 50px;
   background-image: linear-gradient(to right, rgb(56, 56, 56), rgb(152, 152, 152));
   box-shadow: 3px 3px 6px 3px rgb(41, 41, 41);
-  /* transform:rotate(-10deg) skewx(10deg) skewy(10deg); */
 }
 .cor-gradiente h2 {
   font-size: 1.2em;
@@ -112,10 +108,43 @@ h6{
   transform: scale(1.1);
 }
 .propaganda-carousel {
-  background-color: #ff00002e;
   font-size: 2.5em;
+  transition: .6s;
 }
-/* -------------------------------------Correção---------------------------------------------------------- */
+.propaganda-carousel:hover {
+  background-color: transparent;
+  font-size: 3em;
+  transition: .6s;
+}
+.linda-carousel {
+  background-color: #ffffff8e;
+  color: #fa00bb;
+  font-weight: bolder;
+  font-size: 2em;
+  transition: .6s;
+}
+.linda-carousel:hover {
+  background-color: transparent;
+  color: #fa00bb;
+  font-weight: bolder;
+  font-size: 3em;
+  transition: .6s;
+}
+.irmandade-carousel {
+  background-color: #f2000055;
+  color: #f0f0f0;
+  font-weight: bolder;
+  font-size: 2em;
+  transition: .6s;
+}
+.irmandade-carousel:hover {
+  background-color: transparent;
+  color: #fefefe;
+  font-weight: bolder;
+  font-size: 3em;
+  transition: .6s;
+}
+/* -----------------------------------Correção Erick--------------------------------*/
 .noticia_img img{
   width: 100%;
   height: 100%;
@@ -124,8 +153,6 @@ h6{
   object-position: bottom left;
   margin: 10px;
 }
-/* -------------------------------------Correção---------------------------------------------------------- */
-
 .centarlizar-p {
   margin: auto;
 }
@@ -140,12 +167,11 @@ h6{
 }
 
 
-/* Series e TV */
+/* _________________________________Series e TV Wesley______________________________ */
 .series-tv-main {
   max-width: 1200px;
   background-color: #fff;
 }
-
 .series-tv-h3 {
   color: #fff;
   font-size: 1.3em;
@@ -154,7 +180,6 @@ h6{
   background-image: linear-gradient(to right, rgb(56, 56, 56), rgb(152, 152, 152));
   box-shadow: 3px 3px 6px 3px rgb(41, 41, 41);
 }
-
 .series-sec{
   text-align: justify;
 }
@@ -178,12 +203,8 @@ h6{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-/* _____________________________________informações Geeks_____________________________________ */
+/* ____________________________Informações Geeks Wesley_______________________________ */
 
-.informacao-geeks {
-  margin: 0;
-  padding: 0;
-  }
 .informacao-geeks h1 {
   text-align: center;
   font-size: 1.6em;
@@ -251,9 +272,9 @@ h6{
   font-weight: bolder;
   transition: .5s;
 }
-/* <_________________________________________________Wesley___________________________________> */
-/* <_________________________________________________Erick____________________________________> */
-/* Caracteristicas do Footer*/
+
+/* <___________________Caracteristicas do Footer Erick_______________________________> */
+
 a{
   text-decoration: none;
 }
@@ -271,7 +292,6 @@ footer nav ul li a {
   font-size: 1.3rem;
   color: white;
   text-decoration: none;
-
 }
 footer nav ul li a:hover {
   color: yellow;
@@ -319,19 +339,15 @@ small {
   transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
   border-radius: 10px;
 }
-/* Fim da pagina do corpo do footer */
-/* -----------------------------------------------------------------------> */
 
-/* -----------------------------------------------------------------------> */
-/* começo da página geek */
-
+/* _______________________Começo da página Geek Erick_____________________ */
 /* menu da pagina */
+
 .menu_geek_hqs {
   background-color: #d9d9d9;
   align-items: center;
   margin: 10px;
 }
-
 .menu_geek_hqs ul li {
   list-style: none;
   display: inline-block;
@@ -343,8 +359,8 @@ small {
   color: black;
   font-size: 1.2rem;
 }
-/* fim da menu da pagina */
-/*  paginas geek cinema hqs */
+
+/*  _________________________Paginas geek cinema hqs Erick__________________ */
 .img_titulo img {
   border-radius: 10px;
 }
@@ -368,25 +384,20 @@ small {
   padding: 0px 3px;
   color: white;
 }
-
-/* fim da pagina geek HQS */
-/* -----------------------------------------------------------------------> */
-/* pagina galeria */
+/* ____________________________Pagina galeria Erick___________________________ */
 .galeria_grid {
   margin: 15px 10px;
 }
-/* fim pagina galeria */
-/* -----------------------------------------------------------------------> */
-/* pagina de normas de uso */
+
+/* _______________________Pagina de normas de uso Erick________________________ */
 .text_pg_normas p {
   color: white;
   margin: 15px 30px;
   text-align: justify;
   font-size: 1.2rem;
 }
-/* fim da pagina de normas de uso */
-/* -----------------------------------------------------------------------> */
-/* começo das Paginas de visualização de noticias */
+
+/* _______________________Visualização de Noticias Erick_______________________ */
 .fundo {
   background-color: #555;
 }
@@ -411,9 +422,8 @@ small {
 .coroseul_img_desk {
   display: none;
 }
-/* fim das Paginas de visualização de noticias */
-/* -----------------------------------------------------------------------> */
-/* comeco pagina quem somos */
+
+/* ______________________Pagina quem somos Erick_________________________ */
 .quem-somos {
   margin: 30px;
   color: white;
@@ -436,8 +446,9 @@ small {
   margin: 5px;
   font-size: 1.3rem;
 }
-/* fim da pagina quem somos */
-/* -----------------------------------------------------------------------> */
+/* -------------------------Fim da pagina quem Somos-----------------------> */
+
+
 .noticia{
     margin: 10px 0px;
 }
@@ -460,9 +471,8 @@ small {
     height: 40px;
     font-size: 20px;
   }
-  /* -----------------------------------------------------------------------> */
-/* -----------------------------------------------------------------------> */
- /*  começo da pagina geek */
+
+ /* ______________________Pagina Geek Erick_______________________ */
  .menu_geek_hqs nav{
   margin-top: 10px;
  }
@@ -473,8 +483,8 @@ small {
   padding: 15px 30px;
  }
 
-/* -----------------------------------------------------------------------> */
-  /* Paginas de visualização de noticias */
+
+  /* ___________________Paginas de visualização de noticias Erick_________________ */
   .coroseul_img_mobile {
     display: none;
   }
@@ -488,8 +498,6 @@ small {
     font-size: 1rem;
     margin-top: 20px;
   }
-  /* fim das Paginas de visualização de noticias */
-  /* -----------------------------------------------------------------------> */
   /* menu pagina geek e hqs */
   .menu_geek_hqs li a {
     padding: 10px 12%;
@@ -498,16 +506,13 @@ small {
   .noticia {
     margin-left: 5px;
   }
-  /* fim menu pagina geek e hqs */
-  /* -----------------------------------------------------------------------> */
-  /* pagina normas de uso */
+  /* ________________________Pagina normas de uso Erick___________________ */
   .text_pg_normas p {
     font-size: 1rem;
     margin: 20px 80px;
   }
-  /* fim da pagina normas de uso */
-    /* -----------------------------------------------------------------------> */
-  /* pagina quem somos */
+  
+  /* _________________________Pagina Quem Somos Erick______________________ */
   .quem-somos {
     height: auto;
   }
@@ -518,8 +523,7 @@ small {
     margin: 10px;
     font-size: 1rem;
   }
-  /* fim pagina quem somos */
-    /* -----------------------------------------------------------------------> */
+/* ----------------------------------Erick------------------------------------> */
 }
 @media (min-width: 992px) {
   /* menu footer  */
@@ -603,22 +607,18 @@ small {
   .social_icons li:hover:nth-child(3) a::after {
     background-color: #4263a8;
   }
-  /*  Temino do footer icones */
-  /* -----------------------------------------------------------------------> */
-  /* começo da Paginas geek*/
+
+  /* ______________________Começo da Paginas geek Erick______________________*/
   .menu_geek_hqs{
     display: none;
   }
 
-  /* -----------------------------------------------------------------------> */
-  /* comeco da pagina normas de uso */
+  /* _______________________Pagina Normas de Uso Erick______________________ */
   .text_pg_normas p {
     font-size: 0.9rem;
     margin: 20px 110px;
   }
-  /* fim DA pagina normas de uso */
-  /* -----------------------------------------------------------------------> */
-  /* comeco da pagina quem somos */
+  /* _________________________Pagina Quem Somos Italo_________________________ */
   .quem-somos {
     height: auto;
   }
@@ -629,11 +629,8 @@ small {
     margin: 10px;
     font-size: 0.9rem;
   }
-  /* fim da pagina quem somos */
-  /* -----------------------------------------------------------------------> */
-}
-/* <_________________________________________________Erick____________________________________> */
-/* <_________________________________________________wesley___________________________________> */
+
+/* <__________________________________Home Wesley___________________________________> */
 @media (max-width: 990px) {
   #navbarNav {
       background-color: #212529e1;
@@ -652,9 +649,7 @@ small {
     padding-top: 0px;
   }
 }
-/* <_________________________________________________wesley___________________________________> */
-
-
+/* <_______________________________Quem Somos Italo_____________________________> */
 .teste p {
   border-radius: 100px;
   background-color: white;
