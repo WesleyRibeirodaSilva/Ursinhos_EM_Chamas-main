@@ -178,8 +178,79 @@ h6{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+/* _____________________________________informações Geeks_____________________________________ */
 
-
+.informacao-geeks {
+  margin: 0;
+  padding: 0;
+  }
+.informacao-geeks h1 {
+  text-align: center;
+  font-size: 1.6em;
+  }
+.informacao-geeks p {
+  text-align: justify;
+  font-size: 1em;
+  }
+.secao-1 {
+  margin: 20px;
+  background-color: #86a5e9;
+  box-shadow: 3px 3px 5px #040404;
+}
+.secao-1 a {
+  color: #b02121;
+  font-weight: bolder;
+}
+.secao-1 a:hover {
+  color: #333333;
+  font-weight: bolder;
+  transition: .5s;
+}
+.secao-2 {
+  margin: 20px;
+  background-color: #191919;
+  box-shadow: 3px 3px 5px #040404;
+  color: #ebebeb;
+}
+.secao-2 a {
+  color: #b02121;
+  font-weight: bolder;
+}
+.secao-2 a:hover {
+  color: #919191;
+  font-weight: bolder;
+  transition: .5s;
+}
+.secao-3 {
+  margin: 20px;
+  background-color: #ecdd6d;
+  box-shadow: 3px 3px 5px #040404;
+  color: #494949;
+}
+.secao-3 a {
+  color: #b02121;
+  font-weight: bolder;
+}
+.secao-3 a:hover {
+  color: #ffffff;
+  font-weight: bolder;
+  transition: .5s;
+}
+.secao-4 {
+  margin: 20px;
+  background-color: #cc8e57;
+  box-shadow: 3px 3px 5px #040404;
+  color: #2a1010;
+}
+.secao-4 a {
+  color: #b02121;
+  font-weight: bolder;
+}
+.secao-4 a:hover {
+  color: #2c2c2c;
+  font-weight: bolder;
+  transition: .5s;
+}
 /* <_________________________________________________Wesley___________________________________> */
 /* <_________________________________________________Erick____________________________________> */
 /* Caracteristicas do Footer*/
