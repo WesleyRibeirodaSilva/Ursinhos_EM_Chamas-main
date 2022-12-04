@@ -170,7 +170,6 @@ h6{
 /* _________________________________Series e TV Wesley______________________________ */
 .series-tv-main {
   max-width: 1200px;
-  background-color: #fff;
 }
 .series-tv-h3 {
   color: #fff;
@@ -180,8 +179,11 @@ h6{
   background-image: linear-gradient(to right, rgb(56, 56, 56), rgb(152, 152, 152));
   box-shadow: 3px 3px 6px 3px rgb(41, 41, 41);
 }
-.series-sec{
+.series-sec h2{
   text-align: justify;
+  font-size: 1.5em;
+  margin: 0 auto;
+  
 }
 .series-sec-img {
   margin-top: 50px;
