@@ -107,41 +107,42 @@ h6{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-.propaganda-carousel {
+.propaganda-carousel a {
+  color: #fff;
   font-size: 2.5em;
   transition: .6s;
 }
-.propaganda-carousel:hover {
-  background-color: transparent;
+.propaganda-carousel a:hover {
+  color: #fff;
   font-size: 3em;
   transition: .6s;
 }
-.linda-carousel {
+.linda-carousel a {
   background-color: #ffffff8e;
   color: #fa00bb;
   font-weight: bolder;
-  font-size: 2em;
+  font-size: 3em;
   transition: .6s;
 }
-.linda-carousel:hover {
+.linda-carousel a:hover {
   background-color: transparent;
   color: #fa00bb;
   font-weight: bolder;
-  font-size: 3em;
+  font-size: 4em;
   transition: .6s;
 }
 .irmandade-carousel {
   background-color: #f2000055;
   color: #f0f0f0;
   font-weight: bolder;
-  font-size: 2em;
+  font-size: 3em;
   transition: .6s;
 }
 .irmandade-carousel:hover {
   background-color: transparent;
   color: #fefefe;
   font-weight: bolder;
-  font-size: 3em;
+  font-size: 4em;
   transition: .6s;
 }
 /* -----------------------------------Correção Erick--------------------------------*/
