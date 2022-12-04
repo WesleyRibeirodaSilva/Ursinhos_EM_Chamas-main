@@ -231,6 +231,24 @@ h6{
   background-color: #9d5a1a;
   padding: 0px 30px 0px 30px;
 }
+/* _________________________________Series e TV Wesley______________________________ */
+/* _______________________________________Novela____________________________________ */
+.video-ratio-nov {
+  background-color: #353d90;
+  padding: 0px 30px 0px 30px;
+}
+/* _________________________________Series e TV Wesley______________________________ */
+/* _____________________________________Talk-Show___________________________________ */
+.video-ratio-talk {
+  background-color: #191a2c;
+  padding: 0px 30px 0px 30px;
+}
+/* _________________________________Series e TV Wesley______________________________ */
+/* ____________________________________Reality-Show_________________________________ */
+.video-ratio-reality {
+  background-color: #ef7c2c;
+  padding: 0px 30px 0px 30px;
+}
 /* ____________________________Informações Geeks Wesley_______________________________ */
 
 .informacao-geeks h1 {
