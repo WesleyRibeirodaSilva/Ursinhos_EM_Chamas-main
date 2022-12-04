@@ -171,6 +171,12 @@ h6{
 .series-tv-main {
   max-width: 1200px;
 }
+.video-sintonia {
+  background-color: #b02121;
+  box-shadow: 1px 1px 6px 1px rgba(253, 253, 253, 0.422);
+  padding: 20px;
+  margin-bottom: 50px;
+}
 .series-tv-h3 {
   color: #fff;
   font-size: 1.3em;
@@ -183,7 +189,7 @@ h6{
   text-align: justify;
   font-size: 1.5em;
   margin: 0 auto;
-  
+  color: rgb(182, 182, 182);
 }
 .series-sec-img {
   margin-top: 50px;
@@ -661,7 +667,6 @@ form{
   padding-left: 60px;
   background-color: black;
 }
-
-button{
+.buttom0 {
   padding-top: 100px;
 }
