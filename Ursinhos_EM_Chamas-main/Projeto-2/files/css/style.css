@@ -523,8 +523,8 @@ small {
     margin: 10px;
     font-size: 1rem;
   }
-/* ----------------------------------Erick------------------------------------> */
 }
+/* ----------------------------------Erick------------------------------------> */
 @media (min-width: 992px) {
   /* menu footer  */
   footer nav ul li a {
@@ -607,7 +607,7 @@ small {
   .social_icons li:hover:nth-child(3) a::after {
     background-color: #4263a8;
   }
-
+}
   /* ______________________Começo da Paginas geek Erick______________________*/
   .menu_geek_hqs{
     display: none;
