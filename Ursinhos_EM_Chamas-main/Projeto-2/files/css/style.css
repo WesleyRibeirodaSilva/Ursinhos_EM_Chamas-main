@@ -456,6 +456,10 @@ small {
   margin-left: 10px;
   color: white;
 }
+.img_titulo h2 {
+ 
+  margin: auto;
+}
 .autor_data {
   display: flex;
   margin-left: 215px;
@@ -630,7 +634,6 @@ small {
     height: 50px;
     font-size: 25px;
   }
-
   .social_icons li a::before {
     content: "";
     position: absolute;
@@ -689,7 +692,7 @@ small {
   .social_icons li:hover:nth-child(3) a::after {
     background-color: #4263a8;
   }
-}
+
   /* ______________________Começo da Paginas geek Erick______________________*/
   .menu_geek_hqs{
     display: none;
@@ -711,7 +714,7 @@ small {
     margin: 10px;
     font-size: 0.9rem;
   }
-
+}
 /* <__________________________________Home Wesley___________________________________> */
 @media (max-width: 990px) {
   #navbarNav {
