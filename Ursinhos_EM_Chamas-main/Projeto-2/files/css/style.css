@@ -613,7 +613,11 @@ small {
 }
 
 .quem-somos img {
-  margin: 20px 0px;
+  margin: 30px 0px;
+  height: 400px;
+  width: auto;
+  border-style: solid;
+  box-shadow: #01010131 -5px 5px;
 }
 
 .quem-somos section {
