@@ -13,92 +13,7 @@
 </head>
 
 <body>
-  <!-- Nav -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
-    <div class="container">
-      <img src="files/img/logo/Rectangle-177.png" alt="Logo" width="70" height="70"
-        class="d-inline-block align-text-top">
-      <a href="index.html" class="navbar-brand ps-md-5"><i class="nav-bi bi bi-house"></i></a>
-      <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggler Navbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="mx-auto"></div>
-        <ul class="navbar-nav p-5 p-md-5 p-lg-1 p-md-0">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Geek
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="geeks_cinema.html"> - Cinema</a></li>
-              <li><a class="dropdown-item" href="geeks_hqs.html"> - HQs</a></li>
-              <li><a class="dropdown-item" href="geeks_cosplay.html"> - Cosplay</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Séries e TV
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="serie_1.html"> - Ação</a></li>
-              <li><a class="dropdown-item" href="serie_2.html"> - Comédia</a></li>
-              <li><a class="dropdown-item" href="serie_3.html"> - Romance</a></li>
-              <li><a class="dropdown-item" href="tv_1.html"> - Novela</a></li>
-              <li><a class="dropdown-item" href="tv_2.html"> - Reality Show</a></li>
-              <li><a class="dropdown-item" href="tv_3.html"> - Talk-Show</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Filme
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="filmes_1.html"> - Aclamados</a></li>
-              <li><a class="dropdown-item" href="filmes_2.html"> - Rejeitados</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Noticia
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="noticias_1.html"> - Fatecon</a></li>
-              <li><a class="dropdown-item" href="noticias_2.html"> - A melhor HQ </a></li>
-              <li><a class="dropdown-item" href="noticias_3.html"> - Top Gun: Maverick</a></li>
-              <li><a class="dropdown-item" href="noticias_4.html"> - CCPX 2022</a></li>
-              <li><a class="dropdown-item" href="noticias_5.html"> - Super Mario</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="normas_de_uso.html" class="nav-link">Normas de Uso</a>
-          </li>
-          <li class="nav-item">
-            <a href="contatos.html" class="nav-link">Contato</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Quem Somos
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="quem_somos_Erick.html"> - Erick</a></li>
-              <li><a class="dropdown-item" href="quem_somos_Italo.html"> - Italo</a></li>
-              <li><a class="dropdown-item" href="quem_somos_Jenyfer.html"> - Jenyfer</a></li>
-              <li><a class="dropdown-item" href="quem_somos_Wesley.html"> - Wesley</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Banner image -->
-  <div class="banner-image w-100 vh-25 d-flex justify-content-center align-items-center">
-  </div>
+  <?php include 'header.php' ?>
 
   <main class="series-tv-main mx-auto">
     <div class="container">
@@ -117,13 +32,17 @@
     <section class="series-sec container">
       <div class="row">
         <div class="col-11 col-md-6 col-lg-4 p-2 m-auto">
-          <img class="img-fluid rounded-5 m-auto d-block" src="files/img/filmes/aclamados/carandiru/carandiru.jpg" alt="">
+          <img class="img-fluid rounded-5 m-auto d-block" src="files/img/filmes/aclamados/carandiru/carandiru.jpg"
+            alt="">
         </div>
         <div class="col-11 col-md-6 col-lg-4 p-2 m-auto">
-          <img class="img-fluid rounded-0 m-auto d-block" src="files/img/filmes/aclamados/carandiru/logo_mmc.png" alt="">
+          <img class="img-fluid rounded-0 m-auto d-block" src="files/img/filmes/aclamados/carandiru/logo_mmc.png"
+            alt="">
         </div>
         <div class="col-11 col-md-12 col-lg-4 p-2 m-auto">
-          <p class="m-auto">Na visão do famoso médico Drauzio Varella, Carandiru é uma super produção nacional que conta a história dos detentos daquele que já foi um dos presídios mais famosos do país. O filme aborda uma série de contos, baseados em relatos dos próprios detentos em consultas dentro da instituição penal.</p>
+          <p class="m-auto">Na visão do famoso médico Drauzio Varella, Carandiru é uma super produção nacional que conta
+            a história dos detentos daquele que já foi um dos presídios mais famosos do país. O filme aborda uma série
+            de contos, baseados em relatos dos próprios detentos em consultas dentro da instituição penal.</p>
         </div>
       </div>
     </section>
@@ -133,16 +52,20 @@
       <div class="row">
         <h6>Não aparece</h6>
         <div class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
-          <img class="img-fluid rounded-5 m-auto d-block p-2" src="files/img/filmes/aclamados/carandiru/wagner-moura.jpg" alt="">
+          <img class="img-fluid rounded-5 m-auto d-block p-2"
+            src="files/img/filmes/aclamados/carandiru/wagner-moura.jpg" alt="">
         </div>
         <div class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
-          <img class="img-fluid rounded-5 m-auto d-block p-2" src="files/img/filmes/aclamados/carandiru/caio-blat.jpg" alt="">
+          <img class="img-fluid rounded-5 m-auto d-block p-2" src="files/img/filmes/aclamados/carandiru/caio-blat.jpg"
+            alt="">
         </div>
         <div class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
-          <img class="img-fluid rounded-5 m-auto d-block p-2" src="files/img/filmes/aclamados/carandiru/rodrigo-santoro.jpg" alt="">
+          <img class="img-fluid rounded-5 m-auto d-block p-2"
+            src="files/img/filmes/aclamados/carandiru/rodrigo-santoro.jpg" alt="">
         </div>
         <div class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
-          <img class="img-fluid rounded-5 m-auto d-block p-2" src="files/img/filmes/aclamados/carandiru/luiz-carlos.jpg" alt="">
+          <img class="img-fluid rounded-5 m-auto d-block p-2" src="files/img/filmes/aclamados/carandiru/luiz-carlos.jpg"
+            alt="">
         </div>
       </div>
     </section>
@@ -151,13 +74,17 @@
     <section class="series-sec container mb-5">
       <div class="row">
         <div class="col-11 col-md-12 col-lg-4 p-2 mx-auto">
-          <p class="m-auto">O filme de ação também aborda a trágica rebelião dos presos que culminou na morte de mais 111 detentos pelas forças policiais que invadiram o local. Segundo relatos, muitos foram assassinados covardemente, mesmo rendidos ou sob custódio dos agentes da lei.</p>
+          <p class="m-auto">O filme de ação também aborda a trágica rebelião dos presos que culminou na morte de mais
+            111 detentos pelas forças policiais que invadiram o local. Segundo relatos, muitos foram assassinados
+            covardemente, mesmo rendidos ou sob custódio dos agentes da lei.</p>
         </div>
         <div class="col-11 col-md-6 col-lg-4 p-2 m-auto">
-          <img class="img-fluid rounded-5 m-auto d-block" src="files/img/filmes/aclamados/carandiru/carandiru6.jpg" alt="">
+          <img class="img-fluid rounded-5 m-auto d-block" src="files/img/filmes/aclamados/carandiru/carandiru6.jpg"
+            alt="">
         </div>
         <div class="col-11 col-md-6 col-lg-4 p-2 m-auto">
-          <img class="img-fluid rounded-0 m-auto d-block" src="files/img/filmes/aclamados/carandiru/hector-produtor.jpg" alt="">
+          <img class="img-fluid rounded-0 m-auto d-block" src="files/img/filmes/aclamados/carandiru/hector-produtor.jpg"
+            alt="">
         </div>
       </div>
     </section>
@@ -178,13 +105,17 @@
     <section class="series-sec container">
       <div class="row">
         <div class="col-11 col-md-6 col-lg-4 p-2 m-auto">
-          <img class="img-fluid rounded-5 m-auto d-block" src="files/img/filmes/aclamados/o-auto-da-compadecida/o-auto-da-compadecida.jpg" alt="">
+          <img class="img-fluid rounded-5 m-auto d-block"
+            src="files/img/filmes/aclamados/o-auto-da-compadecida/o-auto-da-compadecida.jpg" alt="">
         </div>
         <div class="col-11 col-md-6 col-lg-4 p-2 m-auto">
-          <img class="img-fluid rounded-0 m-auto d-block" src="files/img/filmes/aclamados/o-auto-da-compadecida/banner1-o-auto-da-compadecida-1.jpg" alt="">
+          <img class="img-fluid rounded-0 m-auto d-block"
+            src="files/img/filmes/aclamados/o-auto-da-compadecida/banner1-o-auto-da-compadecida-1.jpg" alt="">
         </div>
         <div class="col-11 col-md-12 col-lg-4 p-2 m-auto">
-          <p class="m-auto">O Auto da Compadecida é um filme brasileiro de comédia dramática, lançado em 2000, dirigido por Guel Arraes, com roteiro de Adriana Falcão, João Falcão e do próprio Arraes, e baseado na peça teatral Auto da Compadecida de 1955 de Ariano Suassuna</p>
+          <p class="m-auto">O Auto da Compadecida é um filme brasileiro de comédia dramática, lançado em 2000, dirigido
+            por Guel Arraes, com roteiro de Adriana Falcão, João Falcão e do próprio Arraes, e baseado na peça teatral
+            Auto da Compadecida de 1955 de Ariano Suassuna</p>
         </div>
       </div>
     </section>
@@ -194,16 +125,20 @@
       <div class="row">
         <h6>Não aparece</h6>
         <div class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
-          <img class="img-fluid rounded-5 m-auto d-block p-2" src="files/img/filmes/aclamados/o-auto-da-compadecida/matheus-nachtergaele.jpg" alt="">
+          <img class="img-fluid rounded-5 m-auto d-block p-2"
+            src="files/img/filmes/aclamados/o-auto-da-compadecida/matheus-nachtergaele.jpg" alt="">
         </div>
         <div class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
-          <img class="img-fluid rounded-5 m-auto d-block p-2" src="files/img/filmes/aclamados/o-auto-da-compadecida/selton-mello.jpg" alt="">
+          <img class="img-fluid rounded-5 m-auto d-block p-2"
+            src="files/img/filmes/aclamados/o-auto-da-compadecida/selton-mello.jpg" alt="">
         </div>
         <div class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
-          <img class="img-fluid rounded-5 m-auto d-block p-2" src="files/img/filmes/aclamados/o-auto-da-compadecida/virginia-cavendish.jpg" alt="">
+          <img class="img-fluid rounded-5 m-auto d-block p-2"
+            src="files/img/filmes/aclamados/o-auto-da-compadecida/virginia-cavendish.jpg" alt="">
         </div>
         <div class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
-          <img class="img-fluid rounded-5 m-auto d-block p-2" src="files/img/filmes/aclamados/o-auto-da-compadecida/denise-1.jpg" alt="">
+          <img class="img-fluid rounded-5 m-auto d-block p-2"
+            src="files/img/filmes/aclamados/o-auto-da-compadecida/denise-1.jpg" alt="">
         </div>
       </div>
     </section>
@@ -212,53 +147,24 @@
     <section class="series-sec container mb-5">
       <div class="row">
         <div class="col-11 col-md-12 col-lg-4 p-2 mx-auto">
-          <p class="m-auto">Durante o Grande Prêmio do Cinema Brasileiro, evento criado pelo Ministério da Cultura, o filme recebeu as premiações de melhor diretor, melhor roteiro, melhor lançamento e melhor ator. Foi visto por mais de dois milhões de espectadores, sendo o filme brasileiro de maior bilheteria de 2000.</p>
+          <p class="m-auto">Durante o Grande Prêmio do Cinema Brasileiro, evento criado pelo Ministério da Cultura, o
+            filme recebeu as premiações de melhor diretor, melhor roteiro, melhor lançamento e melhor ator. Foi visto
+            por mais de dois milhões de espectadores, sendo o filme brasileiro de maior bilheteria de 2000.</p>
         </div>
         <div class="col-11 col-md-6 col-lg-4 p-2 m-auto">
-          <img class="img-fluid rounded-5 m-auto d-block" src="files/img/serie-tv/novela/nova-identidade-visual-globo.jpg" alt="">
+          <img class="img-fluid rounded-5 m-auto d-block"
+            src="files/img/serie-tv/novela/nova-identidade-visual-globo.jpg" alt="">
         </div>
         <div class="col-11 col-md-6 col-lg-4 p-2 m-auto">
-          <img class="img-fluid rounded-0 m-auto d-block" src="files/img/filmes/aclamados/o-auto-da-compadecida/guel-arraes-produtor.jpg" alt="">
+          <img class="img-fluid rounded-0 m-auto d-block"
+            src="files/img/filmes/aclamados/o-auto-da-compadecida/guel-arraes-produtor.jpg" alt="">
         </div>
       </div>
     </section>
 
   </main>
 
-
-  <footer>
-    <div id="color" class="row">
-      <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-
-        <section>
-          <h3 class="color_fonte mt-4">Mapa do site</h3>
-          <nav>
-            <ul>
-              <li><a href="#">GEEKS</a></li>
-              <li><a href="#">SERIES E TV</a></li>
-              <li><a href="#">FILMES</a></li>
-              <li><a href="#">NOTICIAS</a></li>
-              <li><a href="#">NORMAS DE USO</a></li>
-              <li><a href="#">CONTATO</a></li>
-              <li><a href="#">QUEM SOMOS</a></li>
-            </ul>
-          </nav>
-        </section>
-      </div>
-      <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-        <img class="mx-auto" id="logo_footer" src="files/img/logo/teste.png" alt="">
-      </div>
-      <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-        <ul class="social_icons">
-          <li><a class="mx-auto" href="#"><i class="bi bi-facebook" aria-hidden="true"></i></a></li>
-          <li><a class="mx-auto" href="#"><i class="bi bi-instagram" aria-hidden="true"></i></a></li>
-          <li><a class="mx-auto" href="#"><i class="bi bi-twitter" aria-hidden="true"></i></a></li>
-        </ul>
-      </div>
-      <small>© Copyright - Todos os direitos reservados a Fatec São Roque</small>
-    </div>
-  </footer>
-
+  <?php include 'footer.php' ?>
   <!-- Fim da Home -->
   <script>
     var nav = document.querySelector('nav');
