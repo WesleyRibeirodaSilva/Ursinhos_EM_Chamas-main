@@ -572,9 +572,10 @@ small {
 .img_titulo img {
   border-radius: 10px;
 }
-.img_titulo a {
+.noticia .img_titulo a {
   display: flex;
- 
+
+  
 }
 .img_titulo a img{
   width:200px;
@@ -594,14 +595,15 @@ small {
 }
 
 .img_titulo h2 {
-font-size: 1.5rem;
+font-size: 1.2rem;
   margin: auto;
 }
 
 .autor_data {
   display: flex;
+  flex-direction: column;
   margin-left: 215px;
-  margin-top: -40px;
+  margin-top: 0px;
 }
 
 .autor_data h3,
