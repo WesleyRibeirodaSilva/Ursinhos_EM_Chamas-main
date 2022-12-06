@@ -568,50 +568,7 @@ small {
   font-size: 1.2rem;
 }
 
-/*  _________________________Paginas geek cinema hqs Erick__________________ */
-.img_titulo img {
-  border-radius: 10px;
-}
-.noticia .img_titulo a {
-  display: flex;
 
-  
-}
-.img_titulo a img{
-  width:200px;
-  height: 150px;
-
-}
-.img_titulo {
-  display: flex;
-  flex-direction: row;
-  margin: 15px 10px;
-}
-
-.img_titulo h1 {
-  font-size: 1.4rem;
-  margin-left: 10px;
-  color: white;
-}
-
-.img_titulo h2 {
-font-size: 1.2rem;
-  margin: auto;
-}
-
-.autor_data {
-  display: flex;
-  flex-direction: column;
-  margin-left: 215px;
-  margin-top: 0px;
-}
-
-.autor_data h3,
-.bi-clock {
-  font-size: 0.8rem;
-  padding: 0px 3px;
-  color: white;
-}
 
 /* ____________________________Pagina galeria Erick___________________________ */
 .galeria_grid {
@@ -626,36 +583,6 @@ font-size: 1.2rem;
   font-size: 1.2rem;
 }
 
-/* _______________________Visualização de Noticias Erick_______________________ */
-.fundo {
-  background-color: #555;
-}
-
-.h1_pg_visualizacao {
-  color: rgba(255, 255, 255, 0.877);
-  text-align: center;
-  font-size: 2rem;
-  margin-top: 20px;
-}
-
-.text_pg_visualizacao p {
-  margin: 20px 20px;
-  color: rgba(255, 255, 255, 0.87);
-  text-align: justify;
-  font-size: 1.2rem;
-}
-
-.coroseul_img_mobile {
-  margin: 20px 0px;
-}
-
-.coroseul_img_tablet {
-  display: none;
-}
-
-.coroseul_img_desk {
-  display: none;
-}
 
 /* ______________________Pagina quem somos Erick_________________________ */
 .quem-somos {
@@ -669,7 +596,7 @@ font-size: 1.2rem;
 }
 
 .quem-somos img {
-  margin: 30px 0px;
+  margin: 50px 0px;
   height: 400px;
   width: auto;
   border-style: solid;
@@ -765,24 +692,6 @@ border-radius: 10px;
     padding: 15px 30px;
   }
 
-
-  /* ___________________Paginas de visualização de noticias Erick_________________ */
-  .coroseul_img_mobile {
-    display: none;
-  }
-
-  .coroseul_img_tablet {
-    display: block;
-  }
-
-  .coroseul_img_tablet img {
-    margin: 30% 15px;
-  }
-
-  .text_pg_visualizacao p {
-    font-size: 1rem;
-    margin-top: 20px;
-  }
 
   /* menu pagina geek e hqs */
   .menu_geek_hqs li a {
@@ -928,6 +837,7 @@ border-radius: 10px;
   /* _________________________Pagina Quem Somos Italo_________________________ */
   .quem-somos {
     height: auto;
+   
   }
 
   .quem-somos section {
