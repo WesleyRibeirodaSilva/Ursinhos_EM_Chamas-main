@@ -563,7 +563,15 @@ small {
 .img_titulo img {
   border-radius: 10px;
 }
+.img_titulo a {
+  display: flex;
+ 
+}
+.img_titulo a img{
+  width:200px;
+  height: 150px;
 
+}
 .img_titulo {
   display: flex;
   flex-direction: row;
@@ -577,7 +585,7 @@ small {
 }
 
 .img_titulo h2 {
-
+font-size: 1.5rem;
   margin: auto;
 }
 
