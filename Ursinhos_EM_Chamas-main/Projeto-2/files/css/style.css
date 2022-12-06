@@ -657,20 +657,20 @@ border-radius: 10px;
 }
 @media(max-width:576px) {
   input{
-    padding: 5px auto;
+  
     width: 300px;
   }
 }
 
 @media (min-width: 576px )and (max-width: 768px){
   input{
-    padding: 5px auto;
+    
     width: 400px;
   }
 }
 @media (min-width: 768px) {
 input{
-  padding: 5px auto;
+  
   width: 580px;
 }
   footer nav ul li a {
