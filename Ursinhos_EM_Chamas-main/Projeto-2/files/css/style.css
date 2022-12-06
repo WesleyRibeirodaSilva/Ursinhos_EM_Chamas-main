@@ -655,8 +655,24 @@ border-radius: 10px;
 .noticia {
   margin: 10px 0px;
 }
+@media(max-width:576px) {
+  input{
+    padding: 5px auto;
+    width: 300px;
+  }
+}
 
+@media (min-width: 576px )and (max-width: 768px){
+  input{
+    padding: 5px auto;
+    width: 400px;
+  }
+}
 @media (min-width: 768px) {
+input{
+  padding: 5px auto;
+  width: 580px;
+}
   footer nav ul li a {
     padding: 5px 50px;
     font-size: 1.1rem;
@@ -723,10 +739,11 @@ border-radius: 10px;
     font-size: 1rem;
   }
 }
-
 /* ----------------------------------Erick------------------------------------> */
 @media (min-width: 992px) {
-
+input{
+  width: 270px;
+}
   /* menu footer  */
   footer nav ul li a {
     padding: 5px 30px;
@@ -849,7 +866,12 @@ border-radius: 10px;
     font-size: 0.9rem;
   }
 }
-
+@media (min-width: 1200px) {
+  input{
+    padding: 5px;
+    width: 340px;
+  }
+}
 /* <__________________________________Home Wesley___________________________________> */
 @media (max-width: 990px) {
   #navbarNav {
@@ -857,8 +879,8 @@ border-radius: 10px;
     border-radius: 20px;
   }
 }
-
 @media (max-width: 1200px) {
+
   .cor-gradiente {
     margin-top: 0px;
   }
@@ -896,12 +918,6 @@ fieldset {
 
 }
 
-input {
-  padding: 6px;
-  width: 300px;
-
-}
-
 section .teste {
   margin: 25px;
 }
@@ -912,7 +928,5 @@ section .teste {
   margin-left: 50px;
 }
 
-button {
-  padding-top: 100px;
-}
+
 
